@@ -36,7 +36,6 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-",
 // make true if you want auto reply on status 
 AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*🎉👀 Seen by B.m.b-xmd 🚀🔥*",
 // set the auto reply massage on status reply    
@@ -54,7 +53,7 @@ HEART_REACT: process.env.HEART_REACT || "false",
 // make this true or false for heart reactions only 
 OWNER_REACT: process.env.OWNER_REACT || "false",
 // make it true or fasle for only react on owner msg only 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
